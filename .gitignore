@@ -1,0 +1,8 @@
+# Django
+/envportfolio/
+/portfolio/portfolio/__pycache__/
+/portfolio/portfolio/db.sqlite3
+
+
+# React
+node_modules

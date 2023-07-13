@@ -1,0 +1,41 @@
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+  padding-left:10px;
+}
+
+
+  
+  .navbar {
+background-color: #5fbee1;
+padding-left: 20px;
+  }
+
+
+.nav-link{
+    border-radius: 10px;
+    margin-left:30px;
+    margin-right:30px;
+
+    
+}
+
+  .navbar-nav .nav-link:hover {
+    color: white;
+    background-color: #92e9d6;
+    box-shadow: 0 2px 4px #92E9D6;
+    
+  }
+

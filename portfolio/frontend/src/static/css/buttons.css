@@ -1,0 +1,17 @@
+.btn1{
+    color: #000000;
+    background-color:#92e9d6;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color:#92e9d6;
+}
+.btn1:hover {
+    color: #ffffff;
+    background-color: #5fbee1;
+    border-color:#5fbee1;
+    
+}
+.btn1 >a {
+    color: #ffffff;
+
+}

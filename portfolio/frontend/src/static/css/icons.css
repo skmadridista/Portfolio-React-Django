@@ -1,0 +1,24 @@
+.offcanvas-container.offcanvas-container{
+  background-color: #5fbee1;
+}
+.offcanvas-container:hover{
+    background-color:#92e9d6;
+}
+
+.icons-container a {
+    text-decoration: none;
+   
+    color: #000000;
+
+  }
+.icons-container a:hover{
+    color: #ffffff;
+  }
+
+  
+.icons-container p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
