@@ -1,9 +1,17 @@
+version: 1
 services:
-  - name: backend
-    buildCommand: python backend/manage.py collectstatic --noinput
-    startCommand: python backend/manage.py runserver 0.0.0.0:8000
-
-  - name: frontend
-    buildCommand: cd frontend && npm install && npm run build
-    staticPublishPath: frontend/build
-
+  - name: my-portfolio
+    type: web
+    buildCommand: |
+      cd frontend
+      npm install
+      npm run build
+    startCommand: |
+      cd portfolio
+      python manage.py collectstatic --noinput
+      gunicorn portfolio.wsgi:application --bind 0.0.0.0:$PORT
+    env:
+      - key: SECRET_KEY
+        value: django-insecure-ydv(%i_bmco(q6)6m5&4p8sa4zxyky4sa4t9r&k5xlgdd^aw-0
+      - key: DJANGO_SETTINGS_MODULE
+        value: portfolio.settings
