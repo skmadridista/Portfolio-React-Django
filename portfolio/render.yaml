@@ -1,0 +1,9 @@
+services:
+  - name: backend
+    buildCommand: python backend/manage.py collectstatic --noinput
+    startCommand: python backend/manage.py runserver 0.0.0.0:8000
+
+  - name: frontend
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: frontend/build
+
