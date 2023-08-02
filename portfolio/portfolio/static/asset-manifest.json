@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React-Django/static/css/main.ff5afbea.css",
+    "main.js": "/Portfolio-React-Django/static/js/main.e9e29d76.js",
+    "static/js/787.cda612ba.chunk.js": "/Portfolio-React-Django/static/js/787.cda612ba.chunk.js",
+    "static/media/bg-img.jpg": "/Portfolio-React-Django/static/media/bg-img.0a4893421f4eb80a395c.jpg",
+    "index.html": "/Portfolio-React-Django/index.html",
+    "main.ff5afbea.css.map": "/Portfolio-React-Django/static/css/main.ff5afbea.css.map",
+    "main.e9e29d76.js.map": "/Portfolio-React-Django/static/js/main.e9e29d76.js.map",
+    "787.cda612ba.chunk.js.map": "/Portfolio-React-Django/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff5afbea.css",
+    "static/js/main.e9e29d76.js"
+  ]
+}
