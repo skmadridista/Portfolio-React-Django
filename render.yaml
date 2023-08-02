@@ -3,7 +3,7 @@ services:
   - name: my-portfolio
     type: web
     buildCommand: |
-      cd frontend
+      cd portfolio/frontend
       npm install
       npm run build
     startCommand: |
