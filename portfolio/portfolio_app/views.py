@@ -39,7 +39,7 @@ import json
 
 def project_list(request):
     github_username = 'skmadridista'
-    access_token = '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'
+    access_token = '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'
 
     url = f'https://api.github.com/users/{github_username}/repos'
     headers = {'Authorization': f'token {access_token}'}
